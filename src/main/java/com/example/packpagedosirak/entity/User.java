@@ -30,7 +30,7 @@ public class User {
     private String name;
     private String email;
     private String role;
-    //패스워드 추가(소셜로그인위해)
+    //최종테스트
     private String password;
 
 
