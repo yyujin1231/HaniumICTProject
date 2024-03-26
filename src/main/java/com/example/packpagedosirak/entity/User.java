@@ -30,6 +30,7 @@ public class User {
     private String name;
     private String email;
     private String role;
+    //패스워드 잠깐 추가
     private String password;
 
 
