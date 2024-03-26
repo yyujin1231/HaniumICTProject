@@ -30,7 +30,7 @@ public class User {
     private String name;
     private String email;
     private String role;
-    //패스워드 잠깐 추가
+    //패스워드 추가(소셜로그인위해)
     private String password;
 
 
