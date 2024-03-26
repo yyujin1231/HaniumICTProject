@@ -23,7 +23,7 @@ public class UserService {
     public void joinProcess(UserDTO userDTO) {
 
         String username = userDTO.getUsername();
-        String password = userDTO.getPassword();
+        //String password = userDTO.getPassword();
 
         Boolean isExist = userRepository.existsByUsername(username);
 
@@ -35,7 +35,7 @@ public class UserService {
         User data = new User();
 
         data.setUsername(username);
-        data.setPassword(bCryptPasswordEncoder.encode(password));
+        //data.setPassword(bCryptPasswordEncoder.encode(password));
         data.setRole("ROLE_ADMIN");
 
         userRepository.save(data);

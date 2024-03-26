@@ -33,6 +33,11 @@ dependencies {
 	implementation 'io.jsonwebtoken:jjwt-jackson:0.12.3'
 	implementation 'org.springframework.boot:spring-boot-starter-security'
 	implementation 'org.springframework.security:spring-security-test'
+	implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
+	implementation 'org.springframework.boot:spring-boot-starter-security' //이게 있어야 DefaultOAuth2UserService  주입가능
+	testImplementation 'org.springframework.security:spring-security-test'
+
+
 }
 
 compileJava {	options.compilerArgs << '-parameters'}
