@@ -30,7 +30,7 @@ public class User {
     private String name;
     private String email;
     private String role;
-    //최종테스트
+    //테스트
     private String password;
 
 
